@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Education Website</title>
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed top">
+        <div class="container">
+            <a class="navbar-brand" href="">Programming Trainings</a>
+
+            <button
+            class="navbar-toggler"
+             type="button"
+             data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+             >
+
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto"> <!--ms auto to send it to left-->
+                    <li class="navbar-item">
+                       <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Cover-->
+    <section class="bg-light text-dark p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div>
+                    <h3>Become a <span class="text-primary"> Programmer</span></h3>
+                    <p class="lead my-4">We guide our students to learn the fundementals</p>  
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                    
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Enroll Now</button>
+                </div>
+                <img class="img-fluid d-none d-sm-block" src="img/cover.svg" alt="cover">
+                    
+            </div>
+        </div>
+    </section>
+
+    <!--Boxes-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-laptop text-primary"></i>
+                            </div>
+                           <h3 class="card-title mb-3"> Online </h3>
+                           <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                           <a href=""><button class="btn btn-primary btn-default"> Read More</button> </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-people text-primary"></i>
+                            </div>
+                           <h3 class="card-title mb-3"> Group </h3>
+                           <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                           <a href=""><button class="btn btn-primary btn-default"> Read More</button> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi-person text-primary"></i>
+                            </div>
+                           <h3 class="card-title mb-3"> Individual </h3>
+                           <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                           <a href=""><button class="btn btn-primary btn-default"> Read More</button> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Courses Section-->
+    <section id="courses" class="p-5">
+        <div class="container">
+            <h3 class="text-center">Courses</h3>
+            <p class="lead text-center">Upgrade your skills with newest courses</p>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <h3>Web Development</h3>
+                    <p class="lead">Develop Websites</p>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href=""><button class="btn btn-secondary"><i class="bi bi-chevron-right"></i>Read More</button></a>
+                       
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/web.svg" alt="web" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/mobile.svg" alt="web" />
+                </div>
+                <div class="col-md-6">
+                    <h3>Mobile Development</h3>
+                    <p class="lead">Develop Mobile Apps</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href=""><button class="btn btn-secondary"><i class="bi bi-chevron-right"></i>Read More</button> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Questions-->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Frequnently asked questions</h3>
+
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question1">
+                     What are the minimum entry requirments?
+                    </button>
+                  </h2>
+                  <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2">
+                      Do you have an installment payment method?
+                    </button>
+                  </h2>
+                  <div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question3">
+                      Can I access the recodings of the online classes?
+                    </button>
+                  </h2>
+                  <div id="question3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+
+    <!--Instructors-->
+    <section id="instructors" class="p-5" >
+        <div class="container">
+            <h3 class="text-center">Instructors</h3>
+            <p class="lead text-center">Our instructors have more than 5 years of work experience in the industry</p>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img class="img-fluid rounded-circle mb-3 w-50" src="img/instructor1.jpg" alt="instructor1"/>
+                            <h4 class="card-title">James Doe</h4>
+                            <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500. </p>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="bi bi-twitter text-primary "></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin text-primary "></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-primary "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img class="img-fluid rounded-circle mb-3 w-50" src="img/instructor2.jpg" alt="instructor1"/>
+                            <h4 class="card-title">Lora Anderson</h4>
+                            <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500. </p>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="bi bi-twitter text-primary "></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin text-primary "></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-primary "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img class="img-fluid rounded-circle mb-3 w-50" src="img/instructor3.jpg" alt="instructor1"/>
+                            <h4 class="card-title">John Smith</h4>
+                            <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500. </p>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="bi bi-twitter text-primary "></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin text-primary "></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-primary "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <h3 class="text-center mb-4">Contact Us</h3>
+
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Address :</span> 60, Main Street, Queensland, Australia</li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email : </span>programmingtraining@gmail.com</li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone : </span>+61 1122334455</li> 
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <form class="align-items-center">
+                        <div class="form-group">
+                            <label class="pb-2">Name</label>
+                            <input type="text" class="form-control mb-3" placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="pb-2">Email</label>
+                            <input type="text" class="form-control mb-3" placeholder="Enter your email">
+                        </div>
+
+                        <div>
+                            <label class="pb-2">Message</label>
+                            <input type="text" class="form-control mb-3" placeholder="Enter your message">
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn btn-primary mt-2">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-3 text-center position-relative bg-primary">
+        <p class="text-light">Copyright &copy; 2021 Programming Training </p>
+       <!-- <a href="" class="p-5 position-absolute bottom-0 end-0">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>-->
+    </footer>
+
+    <!--Modal-->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Enroll</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Fill this form. We will get back to you.
+            </div>
+            <form class="align-items-center">
+                <div class="mb-3">
+                    <label for="fullName" class="col-form-label">Full Name</label>
+                    <input type="text" id="fullName" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email</label>
+                    <input type="text" id="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="contact" class="col-form-label">Contact No</label>
+                    <input type="text" id="contact" class="form-control">
+                </div>
+            </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
