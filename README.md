@@ -1,1 +1,1 @@
-# bstudy
+# Educational Site
